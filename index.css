@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#Quotes {
+    transition: .6s;
+}
+.side{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color:blueviolet;
+    z-index: 1;
+    padding-top: 100px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.side a {
+    padding: 8px;
+    font-size: 30px;
+    color: black;
+    display: block;
+}
+.side a:hover{
+    color: aliceblue;
+    transition: 0.2s;
+}
+.side .closebtn{
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 32px;
+
+}
+#mainbox{
+    width: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+    color: white;
+    font-size: 40px;
+    padding: 4px;
+
+}
+#active{
+    color: white;
+    background-color: black;
+}
+
+body{background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    padding: 0px 100px 0px 5px;
+    display: flex;
+    background-color: var(--back-color);
+    margin-bottom: 43%;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-grow: 1;
+   background-color: black;
+}
+.img-LOGO{
+    width: 100px;
+    height: 100px;
+  
+}
+.logolink{
+    text-decoration: none;
+    margin: 0px 570px 5px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.8em;
+    cursor: auto;
+}
+.green{
+    color:blueviolet;
+}
+.red{
+    color:blue;
+}
+.black{
+    color:white;
+}
+h2{
+    margin-left:250px;
+    width: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    color: azure;
+}
+h1{
+    margin-left:800px;. 
+    
+ 
+}
+
+.p{
+    background-color:blueviolet ;
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top:-5px;
+}
+#footer{
+
+    text-align: center;
+     color:blueviolet ;
+     padding: 15px 0 -150px;
+     font-size: 14px;
+     margin-bottom: -45%;
+     margin-top: 330px;
+ }
+#footer:hover{
+    color: rgb(16, 223, 178);
+}
+.index{
+    margin-left:10%;
+    text-align: center;
+}
+.photo{
+    transform: translateX(190px) rotate(350deg);
+    margin-left: 550px;
+    margin-bottom: 200px;
+}
+.photo2{
+    width: 250px;
+    transform: translateX(190px) rotate(350deg);
+  margin-left: -430px;
+  height: 300px;
+  margin-top: -50px;
+  
+}
+
+.Islamic {
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 70%;
+    height: 180px;
+    margin-left:15%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text{
+    width: 100%;
+   text-align: center;
+   float: right;
+
+}
+.text1{
+    width: 150%;
+    text-align: center;
+    float: right;
+    margin-right: ;
+}
+.Islamic1 {
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 50%;
+    height: 180px;
+    margin-left:35%;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+.container{
+    width: 100%;
+    padding: 50px;
+  
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 40px;
+}
+.gallery img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: 0.3s ease;
+   filter: grayscale(100%);
+}
+.gallery img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.sh1{
+    background-color: blueviolet;
+    width: 100%;
+  
+ 
+}
+.sh1 h2 {
+   
+  text-align: center;
+  justify-content: center;
+}
+.sh2{
+    width: 100%;
+}
+.sh2 h2{
+    text-align: center;
+    justify-content: center;
+}
+
+.sh3 h2{
+   float: right;
+   text-align: center;
+   background-color: blueviolet;
+   border-radius: 10px;
+   height: 65px;
+   justify-content: center;
+   
+}
+.sh4 h2{
+    float: right;
+    text-align: center;
+    background-color: rgb(168, 92, 240);
+    border-radius: 10px;
+    margin-right: 200px;
+    height: 65px;
+    justify-content: center;
+    color: black;
+}
+.sh5{
+    color: white;
+    margin-right: 50px;
+    font-size: larger;
+}
+.sh6{
+    color: white;
+    margin-right: 50px;
+    font-size: larger; 
+}
